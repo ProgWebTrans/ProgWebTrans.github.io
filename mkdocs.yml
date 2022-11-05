@@ -52,7 +52,7 @@ nav:
      #- Contenu/cours-30.md
   - Exemple:
       - Exemple/index/index.md
-      - exemple.md
+      - Exemple/exemple.md
 plugins:
   - with-pdf:
       toc_title: Table des matières
