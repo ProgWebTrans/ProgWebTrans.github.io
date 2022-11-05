@@ -54,3 +54,5 @@ clavam. Imo vitamque: diem cum ore intravit pro filia Aiax.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+![exemple](../Diagrammes/svg/exemple.svg)

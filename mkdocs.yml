@@ -54,6 +54,15 @@ nav:
       - Exemple/index/index.md
       - Exemple/exemple.md
 plugins:
+  - search
+  - build_plantuml:
+      render: 'server' # or "local" for local rendering
+      server: 'http://www.plantuml.com/plantuml' # offical plantuml server
+      disable_ssl_certificate_validation: true # for self-signed and invalid certs
+      output_format: 'svg' # or "png"
+      diagram_root: 'docs/Diagrammes' # should reside under docs_dir
+      output_folder: 'svg'
+      input_folder: 'puml'
   - with-pdf:
       toc_title: Table des matières
       copyright: Tous droits réservés
