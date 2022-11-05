@@ -74,5 +74,3 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - footnotes
-  - toc:
-      permalink: "#"
