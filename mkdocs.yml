@@ -9,12 +9,56 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
+nav:
+  - Gestion: 
+      - Gestion\index.md
+      - Gestion\travaux.md
+  - Planification: 
+      - Planification\home\index.md
+      - Planification\planification-1010.md
+      - Planification\planification-1020.md
+      - Planification\planification-1030.md
+  - Contenu:
+      - Contenu\home\index.md
+      - Contenu\Cours 01.md
+      - Contenu\Cours 02.md
+      - Contenu\Cours 03.md
+      - Contenu\Cours 04.md
+      - Contenu\Cours 05.md
+      - Contenu\Cours 06.md
+      - Contenu\Cours 07.md
+      - Contenu\Cours 08.md
+      - Contenu\Cours 09.md
+      - Contenu\Cours 10.md
+      - Contenu\Cours 11.md
+      - Contenu\Cours 12.md
+      - Contenu\Cours 13.md
+      - Contenu\Cours 14.md
+      - Contenu\Cours 15.md
+      - Contenu\Cours 16.md
+      - Contenu\Cours 17.md
+      - Contenu\Cours 18.md
+      - Contenu\Cours 19.md
+      - Contenu\Cours 20.md
+      - Contenu\Cours 21.md
+      - Contenu\Cours 22.md
+      - Contenu\Cours 23.md
+      - Contenu\Cours 24.md
+      - Contenu\Cours 25.md
+      - Contenu\Cours 26.md
+      - Contenu\Cours 27.md
+      - Contenu\Cours 28.md
+      - Contenu\Cours 29.md
+      - Contenu\Cours 30.md
 plugins:
   - with-pdf:
-      toc_title: sommaire
+      toc_title: Table des matières
       copyright: Tous droits réservés
       cover_subtitle: 420-3W6-EM
       output_path: pdf/420-3W6-EM.pdf
+      exclude_pages:
+        - 'Planification/home/'
+        - 'Contenu/home/'
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -30,3 +74,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - footnotes
+  - toc:
+      permalink: "#"

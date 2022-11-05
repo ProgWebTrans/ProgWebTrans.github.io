@@ -1,4 +1,10 @@
-# Bienvenue
+---
+hide:
+  - navigation
+  - toc
+---
+#Bienvenue
 
-Ceci est un test pour ajouter la documentation de 3W6
-Programmation Web Transactionnelle
+En construction...
+
+Ce site est aussi offert en [format pdf](pdf/420-3W6-EM.pdf)
