@@ -3,12 +3,30 @@ site_author: Thierry Giroux Veilleux et Valérie Turgeon
 theme:
   name: material
   language: fr
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Mode sombre
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mode éclairé
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
     - toc.follow
+    - header.autohide
+extra_css:
+  - "stylesheets/extra.css"
+  - "stylesheets/theme_dark.css"
+extra_javascript:
+  - "javascript/images_dark.js"
 nav:
   - Gestion: 
       - Gestion/index/index.md
@@ -63,6 +81,13 @@ plugins:
       diagram_root: 'docs/Diagrammes' # should reside under docs_dir
       output_folder: 'svg'
       input_folder: 'puml'
+      theme_enabled: true
+      theme_folder: "include/themes"
+      theme_light: "light.puml"
+      theme_dark: "dark.puml"
+  - exclude:
+      glob:
+        - diagrams/include/C4/*
   - with-pdf:
       toc_title: Table des matières
       copyright: Tous droits réservés

@@ -18,4 +18,5 @@ jobs:
       - run: pip install mkdocs[i18n]
       - run: pip install mkdocs-with-pdf
       - run: pip install mkdocs-build-plantuml-plugin
+      - run: pip install mkdocs-exclude
       - run: mkdocs gh-deploy --force
